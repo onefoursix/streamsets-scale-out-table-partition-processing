@@ -106,7 +106,7 @@ and we can see the values retrieved in my environment in Preview mode:
 
 <img src="images/preview1.png" alt="preview1" width="400"/>
 
-The <code>Create Partitions</code> stage is a [Jython Evaluator](https://docs.streamsets.com/portal/platform-datacollector/latest/datacollector/UserGuide/Processors/Jython.html#concept_a1h_lkf_lr) that does a little math on the min and max offset values and number of partitions parameter, and emits a list of partition values with <code>PARTITION_MIN</code> and <code>PARTITION_MAX</code> values like this:
+The <code>Create Partitions</code> stage is a [Jython Evaluator](https://docs.streamsets.com/portal/platform-datacollector/latest/datacollector/UserGuide/Processors/Jython.html#concept_a1h_lkf_lr) that does a little math on the min and max offset values and number of partitions parameter, and emits a list of partitions with <code>PARTITION_MIN</code> and <code>PARTITION_MAX</code> values like this:
 
 <img src="images/preview2.png" alt="preview2" width="700"/>
 
