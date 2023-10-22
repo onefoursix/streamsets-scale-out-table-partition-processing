@@ -70,7 +70,7 @@ The extra offset column conditions:
 
 ### Step #2: Create a Job Template for the JDBC Multitable Consumer Pipeline
 
-Create a Job Template for the JDBC Multitable Consumer pipeline that exposes the pipeline's parametes:
+Create a Job Template for the JDBC Multitable Consumer pipeline that exposes the pipeline's parameters:
 
 <img src="images/template-params.png" alt="template-params" width="700"/>
 
