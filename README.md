@@ -42,7 +42,7 @@ Assuming that multiple Data Collectors are deployed, here are the steps to scale
 
 - Step #2: A Job Template will be created for the parameterized JDBC Multitable Consumer Pipeline
 
-- Step #3: A "helper" Job will use a pipeline to query the min and max values of the JDBC pipeline's source table's offset column, calculate the boundaries for each partition, and use a [Start Jobs Processor](https://docs.streamsets.com/portal/platform-datacollector/latest/datacollector/UserGuide/Processors/StartJob-P.html#concept_irv_l5r_2jb) to launch multiple instances of the template for the JDBC Multitable Consumer pipeline, passing in the partition values for each instance.
+- Step #3: A "helper" Job will use a pipeline to query the min and max values of the JDBC pipeline's source table's offset column, calculate the boundaries for a user-defined number of partition, and use a [Start Jobs Processor](https://docs.streamsets.com/portal/platform-datacollector/latest/datacollector/UserGuide/Processors/StartJob-P.html#concept_irv_l5r_2jb) to launch multiple instances of the template for the JDBC Multitable Consumer pipeline, passing in the partition values for each instance.
 
 
 ### Step #1: Parameterize your JDBC Multitable Consumer Pipeline
