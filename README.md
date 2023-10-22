@@ -27,7 +27,7 @@ and multithreaded partiton processing is enabled:
 
 <img src="images/mpp.png" alt="mpp" width="400"/>
 
-The result will be scaled-up processing with up to ten threads processing records from up to ten partitions concurrently.
+The result will be scaled-up processing with up to ten threads processing records from up to ten partitions concurrently. However, this pipeline will only run on a single instance of Data Collector, so it is scaled-up but not scaled-out.
 
 
 ## Scaling-Out a JDBC Multitable Consumer Pipeline
