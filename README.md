@@ -114,7 +114,7 @@ The <code>Format Template Parameters</code> stage is a JSON Generator that conve
 
 <img src="images/preview3.png" alt="preview3" width="800"/>
 
-The <code>Start Jobs</code> stage is a Start Jobs Processor configured like to create and run in the background multiple instances of the specified Job Template, using the list of parameters in the <code>template_params</code> record field. Set the Control Hub URL and credentials for your environment:
+The <code>Start Jobs</code> stage is a Start Jobs Processor configured to create and run in the background multiple instances of the specified Job Template, using the list of parameters in the <code>template_params</code> record field. Set the Control Hub URL and credentials for your environment:
 
 <img src="images/start-jobs-config.png" alt="start-jobs-config" width="800"/>
 
